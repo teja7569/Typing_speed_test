@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: "/Typing_speed_test/",
   plugins: [react()],
+  base: '/Typing_speed_test/'
 })
